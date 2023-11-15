@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio_Task</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header, footer {
+      background-color: #500303;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    h1, h2 {
+      color: #fff9f9;
+    }
+
+    #about {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    #about img {
+      width: 40%;
+      margin-right: 20px;
+    }
+
+    .bio {
+      width: 55%;
+      font-size: 1.2em; 
+    }
+
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .skill, .project {
+      width: 48%;
+      margin-bottom: 20px;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ddd; 
+      transition: background-color 0.3s ease;
+    }
+
+    .skill:hover, .project:hover {
+      background-color: #555;
+    }
+
+    h2 {
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.5); 
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rahul Singh</h1>
+    <h1>Web Developer</h1>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="my new photo.jpg" alt="Rahul Singh">
+    <div class="bio">
+      <p>As an Instrumentation Engineer with a passion for programming and a strong foundation in data science, I'm driven by the endless possibilities at the intersection of hardware and software. With experience in Python, web development, and data analytics, I've contributed to diverse projects, and my heart lies in crafting IoT solutions that bridge the digital and physical worlds. Let's connect and explore how we can innovate together in this dynamic tech landscape.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">Python</div>
+      <div class="skill">Java</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Advance Driver Assistance System</h3>
+        <p>It is a device with aspects of IOT that detects drowsiness of drives and turns on warning and corrective actions when needed.</p>
+      </div>
+      <div class="project">
+        <h3>Hardware Inventory Management system</h3>
+        <p>An Inventory management software that aligns with the RFID based, IOT enabled hardware to manage the hardware library of the college.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p><a href="resume 2.pdf" target="_blank">Download Resume</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: RahulSingh.primary@gmail.com</p>
+    <p>Phone: +919022690335</p>
+  </section>
+
+  <footer>
+    <p>&copy; Rahul Singh. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
